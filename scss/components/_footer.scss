@@ -1,0 +1,65 @@
+@import "../base/variables";
+
+/* Seccíon Footer */
+
+.footer {
+    background: $color-secundary;
+}
+
+.nav--footer {
+    font-weight: 300;
+    justify-content: flex-start;
+}
+
+.nav__items {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10px 15px;
+    font-weight: inherit;
+}
+
+.nav__items--footer {
+    padding: 2px;
+}
+
+.footer__grid {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer__title {
+    font-weight: 400;
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.footer__icons {
+    @extend %flexer;
+}
+
+.footer__container-icons {
+    @include parametros (60px,60px,inline-block);
+    color: #fff;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    &:hover {
+        fill: var(--colorSecundary);
+    }
+}
+
+.footer__icon {
+    color: map-get($map: $social, $key: color);
+    font-size: map-get($map: $social, $key: font-size);
+    text-decoration: map-get($map: $social, $key: text-decoration);
+}
+
+.fab.footer__icon {
+    line-height: 60px;
+}
+

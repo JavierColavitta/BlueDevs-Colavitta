@@ -1,0 +1,14 @@
+@mixin parametros ($width, $height, $display) {
+    width: $width; 
+    height: $height;
+    display: $display;
+}
+
+@mixin alineado { align-items: center;
+  justify-content: center;
+  flex-direction: column;  
+} 
+
+
+
+

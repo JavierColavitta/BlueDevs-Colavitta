@@ -1,0 +1,25 @@
+/* Sección Servicios */
+
+.nuestros-servicios {
+    padding-bottom: 30px;
+}
+
+.card-border {
+    border: none;
+    transition: all ease-out 0.2s;
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.card-img-top {
+    width: 90%;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.card-text {
+    font-weight: 300;
+}

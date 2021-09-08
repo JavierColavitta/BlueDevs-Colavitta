@@ -1,0 +1,31 @@
+@import "../base/variables";
+/* Sección Clientes */
+
+.cards {
+    @extend %flexer;
+    .card {
+        background: $color-secundary;
+        @include parametros (46%,200px,flex);
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-evenly;
+        border-radius: 5px;
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+        img {
+            @include parametros (100px,100px,block);
+            object-fit: cover;
+            border: 3px solid #fff;
+            border-radius: 50%;
+        }
+        .contenido-texto-card {
+            width: 60%;
+            color: #fff;
+            p {
+                font-weight: 300;
+                padding-top: 5px;
+            }
+        }
+    }
+}
+
+
