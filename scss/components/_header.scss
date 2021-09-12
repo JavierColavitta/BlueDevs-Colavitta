@@ -22,7 +22,7 @@ header {
     background-position: center;
     
     .textos-header {
-        @include parametros (100%,430px,flex);
+        @include parametros (100%,600px,flex);
         @include alineado;
         text-align: center;
     }
@@ -40,7 +40,27 @@ header {
 }
 
 /* Home Responsive */
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 900px){
+    header{
+        background-position: center;
+    }
+
+    .contenedor-sobre-nosotros {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobre-nosotros .contenido-textos{
+        width: 90%;
+    }
+
+    .imagen-about-us {
+        width: 90%;
+      }
+}
+
+@media only screen and (max-width: 500px) {
 
     header {
         background-position: center;
