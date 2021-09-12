@@ -130,6 +130,26 @@ header .textos-header {
   text-align: justify;
 }
 
+/* Sobre Nosotros Responsive */
+@media only screen and (max-width: 900px) {
+  header {
+    background-position: center;
+  }
+
+  .contenedor-sobre-nosotros {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sobre-nosotros .contenido-textos {
+    width: 90%;
+  }
+
+  .imagen-about-us {
+    width: 90%;
+  }
+}
 /* Sección Portfolio */
 .portfolio__grid {
   display: grid;
@@ -202,6 +222,12 @@ header .textos-header {
   font-size: 1rem;
 }
 
+/* Sección Portfolio Responsive */
+@media only screen and (max-width: 900px) {
+  .portfolio__grid {
+    grid-template-areas: "img1 img1 img2 img2" "img1 img1 img3 img3" "img4 img4 img5 img5";
+  }
+}
 /* Sección Clientes */
 .cards .card {
   background: #0575E6;
@@ -231,6 +257,22 @@ header .textos-header {
   padding-top: 5px;
 }
 
+/* Sección Clientes Responsive */
+@media only screen and (max-width: 900px) {
+  .cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cards .card {
+    width: 90%;
+  }
+
+  .cards .card:first-child {
+    margin-bottom: 30px;
+  }
+}
 /* Sección Servicios */
 .nuestros-servicios {
   padding-bottom: 30px;
@@ -314,6 +356,22 @@ header .textos-header {
 
 .fab.footer__icon {
   line-height: 60px;
+}
+
+/* Sección Footer Responsive */
+@media only screen and (max-width: 900px) {
+  .footer__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer__contact {
+    grid-row: 1/2;
+  }
+
+  .nav--footer {
+    font-weight: 300;
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -63,3 +63,18 @@
     line-height: 60px;
 }
 
+/* Sección Footer Responsive */
+@media only screen and (max-width: 900px) {
+    .footer__grid {
+    grid-template-columns: 1fr;
+    }
+  
+    .footer__contact {
+    grid-row: 1/2;
+    }
+  
+    .nav--footer {
+        font-weight: 300;
+        justify-content: center;
+    }
+  }

@@ -69,3 +69,13 @@
 .portfolio__title {
     font-size: 1rem;
 }
+
+/* Sección Portfolio Responsive */
+@media only screen and (max-width: 900px) {
+    .portfolio__grid {
+    grid-template-areas:
+    "img1 img1 img2 img2"
+    "img1 img1 img3 img3"
+    "img4 img4 img5 img5";
+    }
+  }  

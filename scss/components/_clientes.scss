@@ -28,4 +28,20 @@
     }
 }
 
+/* Sección Clientes Responsive */
+@media only screen and (max-width: 900px) {
+.cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+  
+    .cards .card {
+        width: 90%;
+    }
+  
+    .cards .card:first-child {
+        margin-bottom: 30px;
+    }
+}
 
