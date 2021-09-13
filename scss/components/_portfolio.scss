@@ -91,5 +91,6 @@
         "img4"
         "img5";
         height: auto;
+        grid-template-rows: repeat(5, 250px);
     }
 }

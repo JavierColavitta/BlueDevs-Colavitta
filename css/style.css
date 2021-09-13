@@ -251,6 +251,7 @@ header .textos-header {
   .portfolio__grid {
     grid-template-areas: "img1" "img2" "img3" "img4" "img5";
     height: auto;
+    grid-template-rows: repeat(5, 250px);
   }
 }
 /* Sección Clientes */
