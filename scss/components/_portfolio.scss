@@ -92,5 +92,7 @@
         "img5";
         height: auto;
         grid-template-rows: repeat(5, 250px);
+        grid-auto-rows: 250px;
+        gap: 10px;
     }
 }
