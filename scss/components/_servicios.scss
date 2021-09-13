@@ -7,6 +7,7 @@
 .card-border {
     border: none;
     transition: all ease-out 0.2s;
+
     &:hover {
         transform: scale(1.05);
     }
@@ -22,4 +23,25 @@
 
 .card-text {
     font-weight: 300;
+}
+
+@media only screen and (max-width: 900px) {
+    .servicio-cont {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .servicio-ind {
+        width: 100%;
+        text-align: center;
+    }
+
+    .servicio-ind:nth-child(1),
+    .servicio-ind:nth-child(2) {
+        margin-bottom: 60px;
+    }
+
+    .card-img-top {
+        width: 90%;
+    }
 }

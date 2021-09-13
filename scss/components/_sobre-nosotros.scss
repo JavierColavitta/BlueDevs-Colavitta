@@ -43,10 +43,6 @@
 
 @media only screen and (max-width: 900px) {
   
-    header {
-        background-position: center;
-    }
-  
     .contenedor-sobre-nosotros {
         flex-direction: column;
         justify-content: center;
@@ -63,6 +59,7 @@
   }
 
   @media only screen and (max-width: 500px) {
+    
     .imagen-about-us{
         margin-bottom: 60px;
         width: 99%;
