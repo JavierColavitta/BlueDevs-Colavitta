@@ -81,3 +81,15 @@
             "img4 img4 img5 img5";
     }
 }
+
+@media screen and (max-width: 500px) {
+    .portfolio__grid {
+        grid-template-areas: 
+        "img1"
+        "img2"
+        "img3"
+        "img4"
+        "img5";
+        height: auto;
+    }
+}
