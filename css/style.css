@@ -426,7 +426,7 @@ header .textos-header {
   border: none;
   outline: none;
   border-radius: 50px;
-  background: var(--colorSecundary);
+  background: #0575E6;
   color: #fff;
   padding: 10px 0;
   cursor: pointer;
