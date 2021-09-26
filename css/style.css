@@ -433,6 +433,7 @@ header .textos-header {
   font-size: 18px;
 }
 
+/* Sección Contacto Responsive */
 @media only screen and (max-width: 500px) {
   .contact-in {
     flex-direction: column;
