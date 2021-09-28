@@ -359,6 +359,67 @@ header .textos-header {
     width: 90%;
   }
 }
+/* Seccíon Planes */
+.tabla-contenedor {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tabla {
+  width: 33%;
+  height: 550px;
+  margin: auto;
+  border: 1px solid #021B79;
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px 0px #021B79;
+  padding: 60px;
+  text-align: center;
+  flex-grow: 1;
+  color: #021B79;
+}
+.tabla > h2 {
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+.tabla img {
+  width: 64px;
+  margin-bottom: 35px;
+}
+.tabla > h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.tabla > p {
+  display: block;
+  margin-bottom: 20px;
+}
+.tabla:hover {
+  background: #021c799c;
+  color: #f1f1f2;
+  transition: 0.5s all;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.boton {
+  display: inline-block;
+  width: 150px;
+  padding: 12px;
+  background: #021B79;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 100px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  margin: auto;
+}
+
 /* Seccíon Contacto */
 .contact-in {
   width: 90%;

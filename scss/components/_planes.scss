@@ -1,0 +1,61 @@
+@import "../base/variables";
+
+/* Seccíon Planes */
+.tabla-contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.tabla {
+	width: 33%;
+	height: 550px;
+	margin: auto;
+	border: 1px solid $color-primary;
+	border-radius: 5px;
+	box-shadow: 0px 0px 4px 0px $color-primary;
+	padding: 60px;
+	text-align: center;
+	flex-grow: 1;
+	color: $color-primary;
+	>h2 {
+		font-size: 30px;
+		margin-bottom: 35px;
+	}
+	img {
+		width: 64px;
+		margin-bottom: 35px;
+	}
+	>h3 {
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+	>p {
+		display: block;
+		margin-bottom: 20px;
+	}
+	&:hover {
+		background: $color-transparency;
+		color: #f1f1f2;
+		transition: .5s all;
+		transform: scale(1.1);
+		cursor: pointer;
+	}
+}
+.boton {
+	display: inline-block;
+	width: 150px;
+	padding: 12px;
+	background: $color-primary;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 100px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+	margin: auto;
+}
+
