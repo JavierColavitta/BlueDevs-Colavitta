@@ -58,6 +58,10 @@
 	font-size: 14px;
 	font-weight: 600;
 	margin: auto;
+	&:hover {
+		background: $color-primary;
+		color: #fff;
+	}
 }
 
 /* Sección Planes Responsive */

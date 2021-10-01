@@ -68,6 +68,10 @@
 	padding: 10px 0;
 	cursor: pointer;
 	font-size: 18px;
+	&:hover {
+		background: $color-primary;
+		color: #fff;
+	}
 }
 
 /* Sección Contacto Responsive */

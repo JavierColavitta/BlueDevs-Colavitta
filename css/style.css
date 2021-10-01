@@ -407,6 +407,10 @@ header .textos-header {
   font-weight: 600;
   margin: auto;
 }
+.boton:hover {
+  background: #021B79;
+  color: #fff;
+}
 
 /* Sección Planes Responsive */
 @media screen and (max-width: 1000px) {
@@ -506,6 +510,10 @@ header .textos-header {
   cursor: pointer;
   font-size: 18px;
 }
+.contact-form-btn:hover {
+  background: #021B79;
+  color: #fff;
+}
 
 /* Sección Contacto Responsive */
 @media only screen and (max-width: 500px) {
@@ -566,7 +574,7 @@ header .textos-header {
   border-radius: 50%;
 }
 .footer__container-icons:hover {
-  fill: var(--colorSecundary);
+  background: #021B79;
 }
 
 .footer__icon {
