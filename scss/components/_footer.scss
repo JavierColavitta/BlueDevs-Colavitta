@@ -17,6 +17,9 @@
     margin-right: 10px;
     padding: 10px 15px;
     font-weight: inherit;
+    &:hover {
+		color: $color-primary;
+	}
 }
 
 .nav__items--footer {

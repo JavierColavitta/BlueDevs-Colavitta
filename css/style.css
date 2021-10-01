@@ -544,6 +544,9 @@ header .textos-header {
   padding: 10px 15px;
   font-weight: inherit;
 }
+.nav__items:hover {
+  color: #021B79;
+}
 
 .nav__items--footer {
   padding: 2px;
