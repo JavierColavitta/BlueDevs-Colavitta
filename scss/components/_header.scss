@@ -39,25 +39,12 @@ header {
     }
 }
 
-/* Home Responsive */
+/* Header Responsive */
+
 @media only screen and (max-width: 900px) {
     header{
         background-position: center;
     }
-
-    .contenedor-sobre-nosotros {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .sobre-nosotros .contenido-textos{
-        width: 90%;
-    }
-
-    .imagen-about-us {
-        width: 90%;
-      }
 }
 
 @media only screen and (max-width: 500px) {

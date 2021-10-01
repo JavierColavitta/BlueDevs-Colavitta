@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /*Fuente */
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap");
+/* Global */
 * {
   margin: 0;
   padding: 0;
@@ -75,24 +76,10 @@ header .textos-header {
   color: #fff;
 }
 
-/* Home Responsive */
+/* Header Responsive */
 @media only screen and (max-width: 900px) {
   header {
     background-position: center;
-  }
-
-  .contenedor-sobre-nosotros {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .sobre-nosotros .contenido-textos {
-    width: 90%;
-  }
-
-  .imagen-about-us {
-    width: 90%;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -339,6 +326,7 @@ header .textos-header {
   font-weight: 300;
 }
 
+/* Sección Servicios Responsive */
 @media only screen and (max-width: 900px) {
   .servicio-cont {
     justify-content: center;
@@ -359,7 +347,7 @@ header .textos-header {
     width: 90%;
   }
 }
-/* Seccíon Planes */
+/* Sección Planes */
 .tabla-contenedor {
   width: 90%;
   max-width: 1000px;
@@ -410,7 +398,7 @@ header .textos-header {
   display: inline-block;
   width: 150px;
   padding: 12px;
-  background: #021B79;
+  background: #0575E6;
   text-decoration: none;
   color: #fff;
   border-radius: 100px;
@@ -420,6 +408,7 @@ header .textos-header {
   margin: auto;
 }
 
+/* Sección Planes Responsive */
 @media screen and (max-width: 1000px) {
   .tabla {
     width: 45%;
@@ -444,7 +433,7 @@ header .textos-header {
     padding: 20px;
   }
 }
-/* Seccíon Contacto */
+/* Sección Contacto */
 .contact-in {
   width: 90%;
   height: auto;
@@ -511,7 +500,7 @@ header .textos-header {
   border: none;
   outline: none;
   border-radius: 50px;
-  background: #021B79;
+  background: #0575E6;
   color: #fff;
   padding: 10px 0;
   cursor: pointer;
@@ -530,7 +519,7 @@ header .textos-header {
     width: 90%;
   }
 }
-/* Seccíon Footer */
+/* Sección Footer */
 .footer {
   background: #0575E6;
 }
