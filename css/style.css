@@ -82,13 +82,14 @@ header .textos-header {
     background-position: center;
   }
 }
+@media only screen and (max-width: 768px) {
+  nav {
+    background-color: #0575E6;
+  }
+}
 @media only screen and (max-width: 500px) {
   header {
     background-position: center;
-  }
-
-  nav {
-    background-color: #0575E6;
   }
 
   .textos-header h1 {

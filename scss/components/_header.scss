@@ -47,14 +47,16 @@ header {
     }
 }
 
+@media only screen and (max-width: 768px) {
+    nav {
+        background-color: $color-secundary;
+    }
+}
+
 @media only screen and (max-width: 500px) {
 
     header {
         background-position: center;
-    }
-  
-    nav {
-        background-color: $color-secundary;
     }
   
     .textos-header h1 {
