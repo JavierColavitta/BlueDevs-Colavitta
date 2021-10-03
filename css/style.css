@@ -336,7 +336,7 @@ header .textos-header {
 
   .servicio-ind {
     width: 100%;
-    text-align: center;
+    text-align: start;
   }
 
   .servicio-ind:nth-child(1),
